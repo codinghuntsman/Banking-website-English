@@ -1,0 +1,162 @@
+/* Welcome Form style */
+.welcome-form{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1cdbd5;
+}
+.page-title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.baap-er-bank-style{
+    color: #d30069;
+    font-weight: bold;
+}
+.login{
+    margin-bottom: 0;
+}
+.input-email{
+    width: 75%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+.input-password{
+    width: 75%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 5px;
+}
+.submit-btn{
+    width: 120px;
+    height: 47px;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #7400c2;
+    border: none;
+}
+.submit-btn:hover{
+    background-color: #d30069;
+}
+.form-part{
+    margin-left: 18%;
+}
+
+/* Banking form style*/
+#banking-title{
+    font-size: 40px;
+    color: #288351;
+    font-weight: bold;
+    text-align: center;
+}
+#title-middle-part{
+    color: #df3288;
+    font-weight: bold;
+}
+#row{
+    width: 80%;
+    margin: auto;
+}
+#top-part-column{
+    display: flex;
+    justify-content: center;
+}
+.column-1{
+    background-color: #00a2ca;
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.column-2{
+    background-color: #47fff9;
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.column-3{
+    background-color: #d5ff3c;
+    width: 250px;
+    margin-right: 5px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.dolar-sign {
+    color: #383325;
+    font-weight: bold;
+}
+.deposite-text{
+    margin: 0;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.withdraw-text{
+    margin: 0;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.total-balance{
+    margin: 0;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#column{
+     display: flex;
+     justify-content: center;
+}
+#column-1{
+    width: 400px;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: #8d058d;
+}
+#depo-text{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+}
+.doposite-input{
+    padding: 8px;
+    width: 95%;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 3px;
+}
+ .submit-btnn{
+    width: 120px;
+    height: 47px;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background-color: #00a84c;
+    border: none;
+ }
+ .submit-btnn:hover{
+    background-color: #ff4aa4;
+ }
+#column-2{
+    width: 400px;
+    margin-left: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #a50e59;
+}
+
+
+
+
+

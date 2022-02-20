@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="section-container">
+        <div id="row">
+            <h1 id="banking-title">Welcome <span id="title-middle-part">to easy Banking</span> system</h1>
+            <div id="top-part-column">
+                <div class="column-1">
+                    <h1 class="deposite-text">Deposite</h1>
+                    <h2 class="dolar-sign">$<span id="deposite-balance">00</span></h2>
+                </div>
+                <div class="column-2">
+                    <h1 class="withdraw-text">Withdraw</h1>
+                    <h2 class="dolar-sign">$<span id="withdraw-amount">00</span></h2>
+                </div>
+                <div class="column-3">
+                    <h1 class="total-balance">Total Balance</h1>
+                    <h2 class="dolar-sign">$<span id="total-balance">100</span></h2>
+                </div>
+            </div>
+            <p></p>
+
+            <!------------------- Second part start --------------------->
+            <div id="column">
+                <div id="column-1">
+                    <h3 id="depo-text">Please Deposite</h3>
+                    <form action="#">
+                        <input id="deposite-field" type="text" name="valuinput" class="doposite-input"
+                            placeholder="Deposite your dollar">
+                        <br>
+                        <button class="submit-btnn" id="deposite-button">Submit</button>
+                    </form>
+                </div>
+                <div id="column-2">
+                    <h3 id="depo-text">Please Withdraw</h3>
+                    <form action="#">
+                        <input id="withdraw-field" type="text" name="valuinput" class="doposite-input"
+                            placeholder="Withdraw your dollar">
+                        <br>
+                        <button class="submit-btnn" id="withdraw-button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
